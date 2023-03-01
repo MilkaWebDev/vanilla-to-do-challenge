@@ -29,7 +29,6 @@ ul.addEventListener("click", function (e) {
         let filtro = todo.filter(item => item.id !== Number(element.id))
         todo = filtro
     }
-    console.log(todo)
 
     e.preventDefault();
 })
