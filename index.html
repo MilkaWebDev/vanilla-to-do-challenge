@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="src/style.css">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div class="general-container">
+        <h1 class="title">Todo app</h1>
+        <input type="text" id="add-input" />
+
+        <button id="add-btn" class="add-btn">
+            Agregar
+        </button>
+
+        <ul id="list">
+            <li>Ir al super
+                <button class="delete-btn" name="eliminar">
+                    Eliminar
+                </button>
+            </li>
+        </ul>
+
+        <footer class="footer">
+            <button id="clear" class="clear-btn">Limpiar Lista</button>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
